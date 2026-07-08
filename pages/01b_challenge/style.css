@@ -1,3 +1,8 @@
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
 .card {
   width: 250px;
   height: 250px;
@@ -6,4 +11,19 @@
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
   opacity: 1;
   transform: scale(0.8);
+}
+
+.button {
+  color:#fdfdfd;
+  background-color: #1dd1a1;
+  padding: 0.2em 1em;
+  border-radius: 8px;
+}
+
+.button:hover {
+  background-color: #158c6c;
+}
+
+.button:active {
+  transform: scale(0.9);
 }
