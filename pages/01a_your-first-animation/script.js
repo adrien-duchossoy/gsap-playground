@@ -4,10 +4,11 @@ gsap.to('.card', {
   duration: 5,
   onComplete: () => {
     gsap.to('.card', {
-      y: -20,
-      repeat: -1,
+      
+      scale: 0.5,
+      repeat: -1, //repeat indefinitely
       yoyo: true,
       duration: 0.5,
-    });
+    })
   }
-});
+})
